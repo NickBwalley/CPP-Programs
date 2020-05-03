@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1588466386 source:/home/nickbwalley/codeblocks/SeparateClassesAndAddInDifferentFiles/heavyWeights.cpp
+	"heavyWeights.h"
+	<iostream>
+
+1588465205 /home/nickbwalley/codeblocks/SeparateClassesAndAddInDifferentFiles/heavyWeights.h
+
+1588466447 source:/home/nickbwalley/codeblocks/SeparateClassesAndAddInDifferentFiles/main.cpp
+	<iostream>
+	"heavyWeights.h"
+

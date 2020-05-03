@@ -1,0 +1,6 @@
+#include "heavyWeights"
+
+heavyWeights::heavyWeights()
+{
+    //ctor
+}

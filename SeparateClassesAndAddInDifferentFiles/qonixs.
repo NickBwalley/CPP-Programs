@@ -1,0 +1,6 @@
+#include "qonixs."
+
+qonixs::qonixs()
+{
+    //ctor
+}

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1588463733 source:/home/nickbwalley/codeblocks/constructors/main.cpp
+	<iostream>
+	<string>
+
