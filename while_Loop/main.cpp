@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int bacon = 0;
+    int bacon = 1;
     while (bacon <= 5){
         cout << "The Bacon Number is " << bacon <<endl;
         bacon = bacon + 1;
