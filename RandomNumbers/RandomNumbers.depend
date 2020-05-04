@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1588555511 source:/home/nickbwalley/codeblocks/RandomNumbers/main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+
