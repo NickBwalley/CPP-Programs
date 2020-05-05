@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1588645323 source:/home/nickbwalley/codeblocks/D_Constructor/nicky.cpp
+	"nicky.h"
+	<iostream>
+
+1588645174 /home/nickbwalley/codeblocks/D_Constructor/nicky.h
+
