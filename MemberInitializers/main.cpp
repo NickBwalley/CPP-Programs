@@ -4,6 +4,6 @@ using namespace std;
 
 int main()
 {
-    nicky nickyObj(10,79);
-    nickyObj.print();
+    nicky chelsea(79,99);
+    chelsea.print();
 }
