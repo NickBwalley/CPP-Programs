@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1588642229 source:/home/nickbwalley/codeblocks/arrowMemberSelectionOperator/nicky.cpp
+	"nicky.h"
+	<iostream>
+
+1588642010 /home/nickbwalley/codeblocks/arrowMemberSelectionOperator/nicky.h
+
