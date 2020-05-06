@@ -2,23 +2,23 @@
 
 using namespace std;
 
-class nicky{
+class cleo{
     public:
-        nicky(){
-            rikki = 0;
+        cleo(){
+            kim = 149;
+            cout << "The value of Kim is at: " << kim <<endl;
         }
     private:
-        int rikki;
-    friend void cleoSattori(nicky &cleo);
+        int kim;
+
+        friend void emma(cleo &emma);
 };
 
-    void cleoSattori(nicky &cleo){
-        cleo.rikki = 99;
-        cout << "The value is now: " << cleo.rikki <<endl;
-    }
-
-int main()
-{
-    nicky bob;
-    cleoSattori(bob);
+void emma(cleo &emma){
+    emma.kim = 79;
+    cout << "The New value of Kim is set to be: " << emma.kim <<endl;
+}
+int main(){
+    cleo rikki;
+    emma(rikki);
 }
