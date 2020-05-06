@@ -1,9 +1,9 @@
 #include <iostream>
-
+#include "sally.h"
 using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
-    return 0;
+    sally sallyObj(89, 99);
+    sallyObj.printCrap();
 }

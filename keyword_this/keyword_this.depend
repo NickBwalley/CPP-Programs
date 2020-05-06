@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1588727591 source:/home/nickbwalley/codeblocks/keyword_this/main.cpp
+	<iostream>
+	"sally.h"
+
+1588727655 /home/nickbwalley/codeblocks/keyword_this/sally.h
+
+1588727603 source:/home/nickbwalley/codeblocks/keyword_this/sally.cpp
+	"sally.h"
+	<iostream>
+
