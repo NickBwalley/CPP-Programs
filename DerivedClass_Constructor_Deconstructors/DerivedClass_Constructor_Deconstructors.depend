@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1588818362 source:/home/nickbwalley/codeblocks/DerivedClass_Constructor_Deconstructors/main.cpp
+	<iostream>
+	"mother .h"
+	"daughter.h"
+
+1588818275 /home/nickbwalley/codeblocks/DerivedClass_Constructor_Deconstructors/mother .h
+
+1588818351 /home/nickbwalley/codeblocks/DerivedClass_Constructor_Deconstructors/daughter.h
+
+1588818699 source:/home/nickbwalley/codeblocks/DerivedClass_Constructor_Deconstructors/mother .cpp
+	<iostream>
+	"mother .h"
+	"daughter.h"
+
+1588818680 source:/home/nickbwalley/codeblocks/DerivedClass_Constructor_Deconstructors/daughter.cpp
+	<iostream>
+	"mother .h"
+	"daughter.h"
+
