@@ -1,48 +1,83 @@
-->helloWorld program
-->variables
-->if Statement
-->Arrays                           
-->ArraysInCalculations             
-->Arrays_MultidimensionalArrays    
-->Arrays_MultidimensionalArrays2   
-->ArraysParsingToFunctions         
-->ArraysUsingLoops                 
-->arrowMemberSelectionOperator     
-->AssignmentAndIncrementOperators  
-->Classes_Objects                  
-->composition                      
-->constructors                    
-->CPP_CONCEPTS                   
-->D_Constructor                    
-->DefaultArguments                 
-->DoWhile_Loop                     
-->for_Loop                         
-->For_LoopToCalculateInterestRate  
-->function_const                   
-->FunctionOverloading              
-->functions_Introduction           
-->functions_multiple_param         
-->Functions_sizeOfFunction         
-->function_using_param
-->ifElse_Statement
-->if_Statement
-->Keyword_Friend
--> keyword_this
-->LogicalOperators
-->MemberInitializers
-->operator_Overloading
-->pointers
-->pointers_HowToUseMathInPointers
-->pointers_passByReference
-->practice1
-->RandomNumbers
-->Recursion
-->Scope_UnaryScopeResolutionOperator
-->sentinelControlledProgram
-->SeparateClassesAndAddInDifferentFiles
-->switchStatement
-->variblesAndClasses
-->while_Loop
-->while_Loop2
-->whileLoopComputeSumOfNumbers
-->
+Learn C++ Tutorials in 9 Hours 
+To all this is not my video tutorial I have taken it from NB which contain 73 parts of this video so I got frustrated by loading again and again while I was learning so merged all for easy access to all.
+
+C++ tutorial Timestamp
+0:02 Installing CodeBlocks 
+7:56 Simple C++ Program
+17:45 Printing Text
+23:34 Variables
+29:01 Basic Calculator
+36:30 variable memory
+40:14 Basic Arithmetic
+46:12 If
+53:26 Function
+1:02:29 Creating functions with parameters
+1:07:55 Functions with multiple parameters
+1:14:17 Classes and Objects
+1:22:42 Variables in Classes
+1:31:54 Constructor
+1:40:04 placing classes in diff. files 
+1:49:26 If statement 
+1:57:26 If else statement
+2:04:28 while loops
+2:10:37 program using loops
+2:18:20 Sentinel controlled loops
+2:28:01 Assignment & Increment operator
+2:33:57 For loops 
+2:38:55 stock market simulator
+2:45:36 Do- while loop
+2:49:40 switch 
+2:57:03 Logical Operator
+3:04:24 Random Number Generator 
+3:14:16 Default arguments
+3:19:52 Scope resolution operator
+3:26:45 Function Overloading 
+3:33:06 Recursion
+3:41:25 Arrays
+3:48:06 Arrays with Loops
+3:54:26 Arrays Calculation
+3:59:21 Array as argument
+4:07:20 MD Array  
+4:19:49 Pointers 
+4:25:55 Pass by Reference
+4:34:37 size of 
+4:40:41 pointer math’s 
+4:46:46 Indirection Operator 
+4:54:48 Deconstructor 
+5:01:07 Constant Object
+5:07:57 Member Initialization list
+5:16:21 Composition
+5:24:58 Composition continue
+5:34:04 Friend Function
+5:39:49 This pointer
+5:49:40 Operator Overloading
+5:55:10 Operator
+6:01:12 Inheritance
+6:09:08 Protected Members
+6:17:28 Constructor & Deconstructor Derive C
+6:27:18 Polymorphism 
+6:37:18 virtual Function
+6:46:36 Abstract & pure virtual
+6:54:16 Function Template
+7:03:00 Template with parameters 
+7:10:16 Class template
+7:20:14 Template specialization
+7:29:09 Exception handling
+7:35:34 Exception 
+7:43:46 Files
+7:51:59 files 2
+7:58:34 writing Custom file structure
+8:08:19 reading Custom file structure
+8:18:11 file program
+8:27:14 file program 
+8:36:47 program 
+8:44:49 String Class & string function 
+8:56:47 String Class 2
+9:04:07 String Class 3 
+
+Check Other Courses
+C# tutorial : https://youtu.be/hZBtr8p9GGc
+MySQL Tutorial: https://youtu.be/_vFiyFaQCPA
+C Programming : https://youtu.be/oCNDqFXGCv8
+Python Tutorial : https://youtu.be/QhXwjn2f7ho
+

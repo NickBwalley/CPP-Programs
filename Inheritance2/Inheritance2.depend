@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1588812144 source:/home/nickbwalley/codeblocks/Inheritance2/main.cpp
+	<iostream>
+	"mother.h"
+	"son.h"
+
+1588813290 /home/nickbwalley/codeblocks/Inheritance2/mother.h
+
+1588812109 /home/nickbwalley/codeblocks/Inheritance2/son.h
+
+1588812980 source:/home/nickbwalley/codeblocks/Inheritance2/son.cpp
+	<iostream>
+	"mother.h"
+	"son.h"
+	"daddy.h"
+
+1588812986 source:/home/nickbwalley/codeblocks/Inheritance2/mother.cpp
+	<iostream>
+	"mother.h"
+	"son.h"
+	"daddy.h"
+
+1588813272 /home/nickbwalley/codeblocks/Inheritance2/daddy.h
+
+1588813029 source:/home/nickbwalley/codeblocks/Inheritance2/daddy.cpp
+	<iostream>
+	"mother.h"
+	"son.h"
+	"daddy.h"
+
