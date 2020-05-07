@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1588807348 source:/home/nickbwalley/codeblocks/operator_Overloading/main.cpp
+	<iostream>
+	"nicky.h"
+
+1588808271 /home/nickbwalley/codeblocks/operator_Overloading/nicky.h
+
+1588807214 source:/home/nickbwalley/codeblocks/operator_Overloading/nicky.cpp
+	<iostream>
+	"nicky.h"
+

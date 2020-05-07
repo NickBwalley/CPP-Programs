@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1588808906 source:/home/nickbwalley/codeblocks/operator_Overloading1/brawn.cpp
+	<iostream>
+	"brawn.h"
+
+1588808649 /home/nickbwalley/codeblocks/operator_Overloading1/brawn.h
+

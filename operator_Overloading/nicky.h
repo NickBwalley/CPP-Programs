@@ -5,11 +5,11 @@
 class nicky
 {
     public:
+        int num;
         nicky();
+        nicky(int);
+        nicky operator+(nicky);
 
-    protected:
-
-    private:
 };
 
 #endif // NICKY_H
