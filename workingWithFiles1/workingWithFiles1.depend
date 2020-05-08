@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1588908961 source:/home/nickbwalley/codeblocks/workingWithFiles1/main.cpp
+	<iostream>
+	<fstream>
+

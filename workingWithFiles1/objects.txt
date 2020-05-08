@@ -1,0 +1,6 @@
+sleeping 0
+drinking 0
+movies 2
+series 2
+studying 5
+praying 5
