@@ -6,13 +6,14 @@ void addNumber();
 void multiplyNumbers();
 void printValues();
 void printArray();
+int calculateArea();
 
 int main()
 {
     //addNumber();
     //multiplyNumbers();
     //printValues();
-    printArray();
+    //printArray();
 }
 
 //function add Numbers using pointers
@@ -68,4 +69,11 @@ void printArray(){
         cout << *(arr+y) << endl;
     }
 
+}
+
+//function to calculate the area
+int calculateArea(int *h, int *w){
+    int area;
+    area = *h * *w;
+    return area;
 }
