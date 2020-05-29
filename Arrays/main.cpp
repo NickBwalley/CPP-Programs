@@ -17,13 +17,14 @@ void printArray(){
     cout << "Enter the Size of the Array: " << endl;
     cin >> arraySize;
     cout << "Enter the Elements of Your Array: " << endl;
+    int a[] = {0};
     for(int i = 0; i < arraySize; i++){
-        cin >> arrayElements;
+        cin >> a[arrayElements];
     }
     //print out the elements of the array
     cout << "These are the Elements you have Entered: " << endl;
     for(int x = 0; x < arraySize; x++){
-        cout << x << ": " << arrayElements << endl;
+        cout << x << " = " << a << endl;
     }
 
 }
