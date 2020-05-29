@@ -6,7 +6,7 @@ void addNumber();
 void multiplyNumbers();
 void printValues();
 void printArray();
-int calculateArea();
+int calculateArea(int *h, int *w);
 
 int main()
 {
@@ -14,6 +14,13 @@ int main()
     //multiplyNumbers();
     //printValues();
     //printArray();
+    int a, b;
+    cout << "Enter the Length of Rectangle: " << endl;
+    cin >> a;
+    cout << "Enter the Width of Rectangle: " << endl;
+    cin >> b;
+    cout << "Result is: " << calculateArea(&a,&b) << endl;
+
 }
 
 //function add Numbers using pointers
