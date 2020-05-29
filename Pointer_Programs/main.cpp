@@ -5,12 +5,14 @@ using namespace std;
 void addNumber();
 void multiplyNumbers();
 void printValues();
+void printArray();
 
 int main()
 {
     //addNumber();
     //multiplyNumbers();
-    printValues();
+    //printValues();
+    printArray();
 }
 
 //function add Numbers using pointers
@@ -56,4 +58,14 @@ void printValues(){
         cout << *p << endl;
         (*p)++;
     }
+}
+
+//function to print elements of an array;
+void printArray(){
+    int arr[5] = {29,39,49,79,99};
+
+    for(int y = 0; y < 5; y++){
+        cout << *(arr+y) << endl;
+    }
+
 }
