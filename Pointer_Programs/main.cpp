@@ -4,10 +4,13 @@ using namespace std;
 //function prototype
 void addNumber();
 void multiplyNumbers();
+void printValues();
+
 int main()
 {
     //addNumber();
-    multiplyNumbers();
+    //multiplyNumbers();
+    printValues();
 }
 
 //function add Numbers using pointers
@@ -42,4 +45,15 @@ void multiplyNumbers(){
     *c = *a * *b;
     cout << "Result is: " << *c << endl;
 
+}
+
+//function printTable of One
+void printValues(){
+    int x = 1;
+    int *p = &x;
+
+    while (*p <= 10){
+        cout << *p << endl;
+        (*p)++;
+    }
 }
