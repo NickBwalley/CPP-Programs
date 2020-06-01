@@ -1,17 +1,23 @@
-#include <iostream> //#include-> adding header files >> <iostream> means you include input output streams like cout cin
+#include <iostream>
 
 using namespace std;
 //creating function prototype
-void printSomething(int a, int b);
+void printSomething();
 
 int main()
 {
-    printSomething(499,99);
+    printSomething();
     return 0;
 }
 
 //function printing certain if statements
-void printSomething(int a, int b){
+void printSomething(){
+    int a;
+    int b;
+    cout << "Enter First Number: " << endl;
+    cin >> a;
+    cout << "Enter Second Number: " << endl;
+    cin >> b;
     if(a > b){
         cout << a << " is the greatest Number..." << endl;
     }else{
