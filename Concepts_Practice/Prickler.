@@ -1,0 +1,6 @@
+#include "Prickler."
+
+Prickler::Prickler()
+{
+    //ctor
+}

@@ -1,6 +1,7 @@
 #include <iostream>
-
+#include "Prickler.h"
 using namespace std;
+
 //creating function prototype
 void printSomething();
 int sumNumbers(int a , int b);
@@ -38,16 +39,18 @@ int main()
     //cout << sumNumbers(4,5) << endl;    //function adds 2 Numbers
     /******************************/
     /*creating an object of a class*/
-    birthday myBirthday("Allan", "smith");
-    myBirthday.setName("Nicholas", "20");
-    cout << "Your name is: " << myBirthday.getName() << " You are " << myBirthday.getAge() << endl;
-    cout << "------------------------" << endl;
-    birthday nickie("Jay", "Z");//constructor is called as soon as you create an instance of an object of that class
-    cout << nickie.getName() << " " << nickie.getAge() << endl;
-    birthday rikki("Andrew", "Jackson");
-
-
+//    birthday myBirthday("Allan", "smith");
+//    myBirthday.setName("Nicholas", "20");
+//    cout << "Your name is: " << myBirthday.getName() << " You are " << myBirthday.getAge() << endl;
+//    cout << "------------------------" << endl;
+//    birthday nickie("Jay", "Z");//constructor is called as soon as you create an instance of an object of that class
+//    cout << nickie.getName() << " " << nickie.getAge() << endl;
+//    birthday rikki("Andrew", "Jackson");
     /******************************/
+    /*external classes*/
+    Prickler po;
+    /******************************/
+
     return 0;
 }
 
