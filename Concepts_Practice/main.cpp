@@ -11,11 +11,11 @@ private:
     string name;
     string age;
 public:
-    birthday(){
-        cout << "This is a Constructor for the birthdayClass: " << endl;
+    birthday(string n, string a){
+        setName(n, a);
     }
     //creating a setter and a getter methods
-    void setName    (string myName, string myAge ){
+    void setName(string myName, string myAge ){
         name = myName;
         age = myAge;
     }
@@ -38,11 +38,13 @@ int main()
     //cout << sumNumbers(4,5) << endl;    //function adds 2 Numbers
     /******************************/
     /*creating an object of a class*/
-    birthday myBirthday;
+    birthday myBirthday("Allan", "smith");
     myBirthday.setName("Nicholas", "20");
     cout << "Your name is: " << myBirthday.getName() << " You are " << myBirthday.getAge() << endl;
     cout << "------------------------" << endl;
-    birthday nickie;//constructor is called as soon as you create an instance of an object of that class
+    birthday nickie("Jay", "Z");//constructor is called as soon as you create an instance of an object of that class
+    cout << nickie.getName() << " " << nickie.getAge() << endl;
+    birthday rikki("Andrew", "Jackson");
 
 
     /******************************/
