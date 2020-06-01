@@ -5,11 +5,23 @@ using namespace std;
 void printSomething();
 int sumNumbers(int a , int b);
 
+//creating a class
+class birthday{
+public:
+    void myAge(int age){
+        cout << "You are: " << age << " Years Old!.." << endl;
+    }
+};
+
 
 int main()
 {
     //printSomething();     //if Statement to print out the larger of two numbers
-    cout << sumNumbers(4,5) << endl;    //function adds 2 Numbers
+    //cout << sumNumbers(4,5) << endl;    //function adds 2 Numbers
+    /******************************/
+    /*creating an object of a class*/
+    birthday nickie;
+    nickie.myAge(20);
     return 0;
 }
 
