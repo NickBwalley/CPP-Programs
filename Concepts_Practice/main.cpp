@@ -3,10 +3,13 @@
 using namespace std;
 //creating function prototype
 void printSomething();
+int sumNumbers(int a , int b);
+
 
 int main()
 {
-    printSomething();
+    //printSomething();     //if Statement to print out the larger of two numbers
+    cout << sumNumbers(4,5) << endl;    //function adds 2 Numbers
     return 0;
 }
 
@@ -23,4 +26,9 @@ void printSomething(){
     }else{
         cout << b << " is the greatest Number..." << endl;
     }
+ }
+
+ int sumNumbers(int a, int b){
+    int answer = a + b;
+    return answer;
  }
