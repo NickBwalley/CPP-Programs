@@ -11,6 +11,9 @@ private:
     string name;
     string age;
 public:
+    birthday(){
+        cout << "This is a Constructor for the birthdayClass: " << endl;
+    }
     //creating a setter and a getter methods
     void setName    (string myName, string myAge ){
         name = myName;
@@ -38,6 +41,10 @@ int main()
     birthday myBirthday;
     myBirthday.setName("Nicholas", "20");
     cout << "Your name is: " << myBirthday.getName() << " You are " << myBirthday.getAge() << endl;
+    cout << "------------------------" << endl;
+    birthday nickie;//constructor is called as soon as you create an instance of an object of that class
+
+
     /******************************/
     return 0;
 }
