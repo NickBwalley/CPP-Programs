@@ -3,10 +3,12 @@
 using namespace std;
 //function prototype
 void printArray();
+void simpleArray();
 
 int main()
 {
-    printArray();
+    //printArray();
+    simpleArray();
 }
 
 void printArray(){
@@ -19,4 +21,16 @@ void printArray(){
         cin >> nicky[i];
     }
     cout << nicky[2] << endl;
+}
+
+void simpleArray(){
+    int sizeOfArray;
+    cout << "Enter the Size of your array: " << endl;
+    cin >> sizeOfArray;
+    int prickler[sizeOfArray];
+    cout << "Enter the Elements of your Array: " << endl;
+    for(int y = 0; y < prickler[sizeOfArray]; y++){
+        cin >> prickler[y];
+    }
+
 }
