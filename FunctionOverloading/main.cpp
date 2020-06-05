@@ -12,7 +12,11 @@ void printNumber(float x){
 int main()
 {
     float x;
+    int y;
+
     cout << "Enter a Number: " << endl;
-    cin >> x;
+    cin >> x >> y;
+
     printNumber(x);
+    printNumber(y);
 }
