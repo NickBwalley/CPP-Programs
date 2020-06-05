@@ -32,5 +32,9 @@ void simpleArray(){
     for(int y = 0; y < prickler[sizeOfArray]; y++){
         cin >> prickler[y];
     }
+    //creating a for loop to print out the elements inside our array
+    for (int z = 0; z < prickler[sizeOfArray]; z++){
+        cout << prickler[z];
+    }
 
 }
