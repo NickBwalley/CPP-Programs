@@ -11,9 +11,8 @@ void printNumber(float x){
 
 int main()
 {
-    int a = 79;
+    float a = 79.44;
     float b = 79.398439;
-
     printNumber(a);
     printNumber(b);
 }
