@@ -6,8 +6,8 @@ void simpleArray();
 
 int main()
 {
-    //printArray();
-    simpleArray();
+    printArray();
+    //simpleArray();
 }
 
 void printArray(){
@@ -16,10 +16,14 @@ void printArray(){
     cin >> arraySize;
     int nicky[arraySize];
     cout << "Enter the Elements of Your Array: " << endl;
-    for(int i = 0; i < nicky[arraySize]; i++){
+    for(int i = 0; i < arraySize; i++){
         cin >> nicky[i];
     }
-    cout << nicky[2] << endl;
+    cout << "The Elements of your Arrays are: " << endl;
+    for(int z = 0; z < arraySize; z++){
+        cout << "index " << z << " Element = " << nicky[z] << endl;
+        cout << "\n" << endl;
+    }
 }
 
 void simpleArray(){
