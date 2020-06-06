@@ -31,5 +31,10 @@ void simpleArray(){
     for(int y = 0; y < sizeOfArray; y++){
         cin >> prickler[y];
     }
+    cout << "These are the Elements inside Your Array: " << endl;
+    for(int z = 0; z < sizeOfArray; z++){
+        cout << "At Index "<<z << " Element = " << prickler[z] << endl;
+        cout << endl;
+    }
 
 }

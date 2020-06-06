@@ -1,7 +1,6 @@
 # depslib dependency file v1.0
-1591401438 source:/home/nickbwalley/codeblocks/Arrays/main.cpp
+1591404696 source:/home/nickbwalley/codeblocks/Arrays/main.cpp
 	<iostream>
-	"OneDimensionalArray.h"
 
 1590793137 /home/nickbwalley/codeblocks/Arrays/OneDimensionalArray.h
 
