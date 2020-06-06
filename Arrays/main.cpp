@@ -1,5 +1,4 @@
 #include <iostream>
-#include "OneDimensionalArray.h"
 using namespace std;
 //function prototype
 void printArray();
@@ -12,7 +11,7 @@ int main()
 }
 
 void printArray(){
-    int arraySize, arrayElements;
+    int arraySize;
     cout << "Enter the Size of the Array: " << endl;
     cin >> arraySize;
     int nicky[arraySize];
@@ -29,12 +28,8 @@ void simpleArray(){
     cin >> sizeOfArray;
     int prickler[sizeOfArray];
     cout << "Enter the Elements of your Array: " << endl;
-    for(int y = 0; y < prickler[sizeOfArray]; y++){
+    for(int y = 0; y < sizeOfArray; y++){
         cin >> prickler[y];
-    }
-    //creating a for loop to print out the elements inside our array
-    for (int z = 0; z < prickler[sizeOfArray]; z++){
-        cout << prickler[z];
     }
 
 }
