@@ -6,6 +6,7 @@ class Sentinel
 {
     public:
         Sentinel();
+        void printCrap();
 
     protected:
 

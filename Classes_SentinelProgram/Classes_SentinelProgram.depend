@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1591573957 source:/home/nickbwalley/codeblocks/Classes_SentinelProgram/Apples.cpp
+	<iostream>
+	"Apples.h"
+
+1591573931 /home/nickbwalley/codeblocks/Classes_SentinelProgram/Apples.h
+
