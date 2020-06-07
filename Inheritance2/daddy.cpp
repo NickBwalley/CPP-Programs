@@ -11,5 +11,7 @@ daddy::daddy()
 
 void daddy::daddys(){
     publicVariable = 81;
-    cout << "Daddys class: " << publicVariable <<endl;
+    cout << "Daddys public variable (In mothers): " << publicVariable <<endl;
+    protectedVariable = 99;
+    cout << "Daddys protected Variable(In mothers): " << protectedVariable << endl;
 }
