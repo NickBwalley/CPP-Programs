@@ -10,6 +10,7 @@ class Arrays
         void largestNumber();
         bool checkElement();
         void sentinelControlledProgram();
+        void printEvenNumbers();
 
     protected:
 

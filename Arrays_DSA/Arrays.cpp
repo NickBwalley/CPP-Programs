@@ -67,3 +67,22 @@ void Arrays::sentinelControlledProgram(){
     cout << "TOTAL = " << total << endl;
     cout << "Number of Elements: " << Elements << endl;
 }
+
+//function  print even numbers inside an array
+void Arrays::printEvenNumbers(){
+    int num;
+    cout << "Declare Array Size: " << endl;
+    cin >> num;
+    int nicky[num];
+    cout << "Enter Elements of Your Array: " << endl;
+    for(int i = 0; i < num; i++){
+        cin >> nicky[i];
+    }
+    cout << "Even Numbers are: " << endl;
+    for (int x = 0; x < num; x++){
+        if(nicky[x]%2 == 0){
+            cout << nicky[x] << endl;
+        }
+    }
+
+}

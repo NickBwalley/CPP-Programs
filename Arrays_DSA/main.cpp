@@ -8,5 +8,6 @@ int main()
     //rikki.printDaysOfWeek();
     //rikki.largestNumber();
     //cout << rikki.checkElement() << endl;
-    rikki.sentinelControlledProgram();
+    //rikki.sentinelControlledProgram();
+    rikki.printEvenNumbers();
 }
