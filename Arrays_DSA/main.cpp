@@ -7,5 +7,6 @@ int main()
     Arrays rikki;
     //rikki.printDaysOfWeek();
     //rikki.largestNumber();
-    cout << rikki.checkElement() << endl;
+    //cout << rikki.checkElement() << endl;
+    rikki.sentinelControlledProgram();
 }

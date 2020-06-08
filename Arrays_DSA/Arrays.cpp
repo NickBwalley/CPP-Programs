@@ -48,3 +48,22 @@ cin >> number;
     }
     return false;
 }
+
+//function Sentinel controlled program to sum numbers until user enters a terminating operation
+void Arrays::sentinelControlledProgram(){
+    int number;
+    int total = 0;
+    int Elements = 0;
+
+    cout << "Enter Your Numbers: (PRESS -1 TO QUIT): " << endl;
+    cin >> number;
+
+    while(number != -1){
+        total+=number;
+        cin >> number;
+        Elements++;
+    }
+
+    cout << "TOTAL = " << total << endl;
+    cout << "Number of Elements: " << Elements << endl;
+}
