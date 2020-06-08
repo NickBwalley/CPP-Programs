@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1591658015 source:/home/nickbwalley/codeblocks/Arrays_DSA/main.cpp
+	<iostream>
+	"Arrays.h"
+
+1591658015 /home/nickbwalley/codeblocks/Arrays_DSA/Arrays.h
+

@@ -1,9 +1,9 @@
 #include <iostream>
-
+#include "Arrays.h"
 using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
-    return 0;
+    Arrays rikki;
+    rikki.printDaysOfWeek();
 }
