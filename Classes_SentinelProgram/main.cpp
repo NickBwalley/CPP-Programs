@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include "Apples.h"
 using namespace std;
 
 class SentinelProgram{
@@ -29,8 +29,13 @@ public:
 
 int main()
 {
-    SentinelProgram nicky;
-    nicky.sentinelControlledProgram();
-    cout << "TOTAL IS: " << nicky.printTotal() << endl;
-    cout << "Elements are: " << nicky.printElements()  << endl;
+//    SentinelProgram nicky;
+//    nicky.sentinelControlledProgram();
+//    cout << "TOTAL IS: " << nicky.printTotal() << endl;
+//    cout << "Elements are: " << nicky.printElements()  << endl;
+
+      Apples apples;
+      apples.sentinelProgram();
+      cout << "TOTAL IS: " << apples.printTotal() << endl;
+      cout << "Elements are: " << apples.printElements() << endl;
 }
