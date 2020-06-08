@@ -34,3 +34,17 @@ void Arrays::largestNumber(){
     cout << "The Largest Number is: " << Max << endl;
 
 }
+
+//function to check an element inside our array
+bool Arrays::checkElement(){
+int number;
+int nicky[9] = {10,20,30,40,50,60,70,80,90};
+cout << "Enter Your Number to Check: " << endl;
+cin >> number;
+    for(int i = 0; i < 9; i++){
+        if(number == nicky[i]){
+            return true;
+        }
+    }
+    return false;
+}

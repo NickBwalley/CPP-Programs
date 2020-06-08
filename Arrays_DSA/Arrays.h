@@ -8,6 +8,7 @@ class Arrays
         Arrays();
         void printDaysOfWeek();
         void largestNumber();
+        bool checkElement();
 
     protected:
 
