@@ -9,5 +9,6 @@ int main()
     //rikki.largestNumber();
     //cout << rikki.checkElement() << endl;
     //rikki.sentinelControlledProgram();
-    rikki.printEvenNumbers();
+    //rikki.printEvenNumbers();
+    rikki.MultidimensionalArray();
 }

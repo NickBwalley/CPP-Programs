@@ -86,3 +86,19 @@ void Arrays::printEvenNumbers(){
     }
 
 }
+
+//function to Enter multidimensional Array
+void Arrays::MultidimensionalArray(){
+    int nicky[4][3] = {
+        {22,23,24},
+        {25,26,27},
+        {28,29,30},
+        {31,32,33}
+        };
+    for(int i = 0; i < 4; i++ ){
+        for(int j = 0; j < 3; j++){
+            cout << "[" << i << " " << j << "]" << nicky[i][j] << endl;
+        }
+
+    }
+}

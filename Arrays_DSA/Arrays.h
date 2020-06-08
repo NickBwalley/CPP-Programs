@@ -11,6 +11,7 @@ class Arrays
         bool checkElement();
         void sentinelControlledProgram();
         void printEvenNumbers();
+        void MultidimensionalArray();
 
     protected:
 
