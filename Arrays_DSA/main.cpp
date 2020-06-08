@@ -5,5 +5,6 @@ using namespace std;
 int main()
 {
     Arrays rikki;
-    rikki.printDaysOfWeek();
+    //rikki.printDaysOfWeek();
+    rikki.largestNumber();
 }

@@ -7,6 +7,7 @@ class Arrays
     public:
         Arrays();
         void printDaysOfWeek();
+        void largestNumber();
 
     protected:
 
