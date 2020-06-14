@@ -1,6 +1,7 @@
 #include<iostream>
-using namespace std;
 #include "NickFury.h"
+using namespace std;
+
 void swapping(int &a, int &b) {      //swap the content of a and b
    int temp;
    temp = a;
@@ -40,5 +41,15 @@ int main() {
 //   cout << "Array after Sorting: ";
 //   display(arr, n);
 /****************************************************************/
+    cout << "Declare the Size of Your Array: " << endl;
+    int n;
+    cin >> n;
+    int nick[n];
+    cout << "Enter the Elements of Your Array: " << endl;
+    for(int i = 0; i < n; i++){
+        cin >> nick[i];
+    }
 
+    NickFury apples();
+    apples.display(nick, n);
 }

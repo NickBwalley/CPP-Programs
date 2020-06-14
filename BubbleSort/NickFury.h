@@ -5,7 +5,9 @@
 class NickFury
 {
     public:
-        NickFury();
+        void display(int *array, int size);
+
+
 
 
     protected:
