@@ -2,11 +2,12 @@
 using namespace std;
 //function prototype
 void primeNumberChecker();
+void printCrap();
 
 int main()
 {
     void primeNumberChecker();
-
+    void printCrap();
 }
 
 
@@ -32,4 +33,8 @@ void primeNumberChecker(){
 //    }
 //    else
 //        cout << n << " is Not a Prime Number..." << endl;
+}
+
+void printCrap(){
+    cout << "Hello Ladies and GentleMen" << endl;
 }
