@@ -4,6 +4,13 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
-    return 0;
+    int n;
+    int rev = 0;
+
+    cout << "Enter A Number: " << endl;
+    cin >> n
+
+    while(n > 0){
+
+    }
 }
