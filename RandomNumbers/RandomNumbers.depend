@@ -1,6 +1,9 @@
 # depslib dependency file v1.0
-1588555511 source:/home/nickbwalley/codeblocks/RandomNumbers/main.cpp
+1592264369 source:/home/nickbwalley/codeblocks/RandomNumbers/main.cpp
 	<iostream>
-	<cstdlib>
-	<ctime>
+
+1592264331 source:/home/nickbwalley/codeblocks/RandomNumbers/randomNumber.cpp
+	"randomNumber.h"
+
+1592264331 /home/nickbwalley/codeblocks/RandomNumbers/randomNumber.h
 
