@@ -1,4 +1,10 @@
 # depslib dependency file v1.0
-1588561776 source:/home/nickbwalley/codeblocks/Recursion/main.cpp
+1592345316 source:/home/nickbwalley/codeblocks/Recursion/main.cpp
 	<iostream>
+	"NickyFactorial.h"
+
+1592345354 source:/home/nickbwalley/codeblocks/Recursion/NickyFactorial.cpp
+	"NickyFactorial.h"
+
+1592345316 /home/nickbwalley/codeblocks/Recursion/NickyFactorial.h
 

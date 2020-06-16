@@ -1,16 +1,13 @@
 #include <iostream>
-
+#include "NickyFactorial.h"
 using namespace std;
-//factorialFinder using recursive function
-int factorialFinder(int x){
-    if(x==1){
-        return 1;
-    }
-    else{
-        return x*factorialFinder(x-1);
-    }
-}
+
 int main()
 {
-    cout << "Factorial: " << factorialFinder(5)<<endl;
+    NickyFactorial nick;
+    int result, num;
+    num = 5;
+    result = nick.NumberFactorial(num);
+    cout << "The Factorial of " << num << " is " << result << endl;
+
 }
