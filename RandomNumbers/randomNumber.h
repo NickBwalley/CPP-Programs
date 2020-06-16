@@ -7,6 +7,7 @@ class randomNumber
 {
     public:
         void printRandom();
+        void printRandom2();
 
     protected:
 

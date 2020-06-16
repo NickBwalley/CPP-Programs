@@ -2,7 +2,8 @@
 #include "randomNumber.h"
 using namespace std;
 
-int main(){
+main(){
     randomNumber nicky;
     nicky.printRandom();
+    nicky.printRandom2();
 }

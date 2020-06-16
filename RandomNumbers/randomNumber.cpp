@@ -9,5 +9,12 @@ void randomNumber::printRandom(){
     }
 }
 
-
+void randomNumber::printRandom2(){
+    int res2;
+    srand(time(0));
+    for(int i = 0; i < 5; i++){
+        res2 = random()%50;
+        cout << res2 << endl;
+    }
+}
 
