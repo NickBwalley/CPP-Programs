@@ -3,6 +3,10 @@
 using namespace std;
 
 void Nicky::overloaded(double x){
+    cout << x << " is a Double variable.." << endl;
+}
+
+void Nicky::overloaded(float x){
     cout << x << " is a Float variable.." << endl;
 }
 
