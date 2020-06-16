@@ -1,16 +1,14 @@
-#ifndef RANDOMNUMBER_H
-#define RANDOMNUMBER_H
-
+#include <iostream>
+#include <cstdlib>
+using namespace std;
 
 class randomNumber
 {
     public:
-        randomNumber();
-        void firstMethod();
+        void printRandom();
 
     protected:
 
     private:
 };
 
-#endif // RANDOMNUMBER_H

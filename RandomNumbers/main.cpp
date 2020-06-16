@@ -4,5 +4,5 @@ using namespace std;
 
 int main(){
     randomNumber nicky;
-    nicky.firstMethod();
+    nicky.printRandom();
 }
