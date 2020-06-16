@@ -8,7 +8,3 @@ int NickyFactorial::NumberFactorial(int x){
     else
         return x*NumberFactorial(x-1);
 }
-
-void NickyFactorial::bestAward(char y, int n){
-    cout << string(y,n) << endl;
-}

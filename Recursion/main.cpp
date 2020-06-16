@@ -11,9 +11,5 @@ int main()
     cout << "The Factorial of " << num << " is " << result << endl;
     cout << "----------------" << endl;
 
-    char y = 'z';
-    int n = 4;
-    nick.bestAward(y, n);
-
 
 }
