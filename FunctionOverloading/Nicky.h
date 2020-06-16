@@ -1,12 +1,12 @@
-#include <iostream>
-#include "Nicky.h"
-using namespace std;
 
 class Nicky
 {
     public:
-        void overloaded(float x);
+        void overloaded(double x);
         void overloaded(int x);
+        void overloaded(char x);
+        void overloaded(bool x);
+        void overloaded(long x);
 
     protected:
 

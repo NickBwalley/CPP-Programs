@@ -1,6 +1,7 @@
 #include <iostream>
-
+#include "Nicky.h"
 using namespace std;
+
 //Function overloading is basically creating a value which can take multiple datatypes
 void printNumber(int x){
     cout << "We are passing an Integer: " << x << endl;
@@ -11,12 +12,9 @@ void printNumber(float x){
 
 int main()
 {
-    float x;
-    int y;
 
-    cout << "Enter a Number: " << endl;
-    cin >> x >> y;
+    Nicky nick;
+    nick.overloaded(true);
 
-    printNumber(x);
-    printNumber(y);
+
 }
