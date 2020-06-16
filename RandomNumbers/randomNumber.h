@@ -6,6 +6,7 @@ class randomNumber
 {
     public:
         randomNumber();
+        void firstMethod();
 
     protected:
 

@@ -1,6 +1,10 @@
+#include <iostream>
 #include "randomNumber.h"
+#include <cstdlib>
+using namespace std;
 
-randomNumber::randomNumber()
-{
-    //ctor
+void randomNumber::firstMethod(){
+    cout << "Hello World" << endl;
 }
+
+

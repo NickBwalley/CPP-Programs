@@ -1,8 +1,8 @@
 #include <iostream>
+#include "randomNumber.h"
 using namespace std;
 
 int main(){
-    cout << rand() << endl;
-
-    return 0;
+    randomNumber nicky;
+    nicky.firstMethod();
 }
