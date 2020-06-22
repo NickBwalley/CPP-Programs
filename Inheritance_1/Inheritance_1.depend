@@ -5,3 +5,15 @@
 
 1592847212 /home/nickbwalley/codeblocks/Inheritance_1/Fruits.h
 
+1592847257 source:/home/nickbwalley/codeblocks/Inheritance_1/main.cpp
+	<iostream>
+	"Fruits.h"
+	"Mango.h"
+
+1592847257 /home/nickbwalley/codeblocks/Inheritance_1/Mango.h
+
+1592847143 source:/home/nickbwalley/codeblocks/Inheritance_1/Mango.cpp
+	<iostream>
+	"Fruits.h"
+	"Mango.h"
+
