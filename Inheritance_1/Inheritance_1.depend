@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1592847121 source:/home/nickbwalley/codeblocks/Inheritance_1/Fruits.cpp
+	<iostream>
+	"Fruits.h"
+
+1592847212 /home/nickbwalley/codeblocks/Inheritance_1/Fruits.h
+
