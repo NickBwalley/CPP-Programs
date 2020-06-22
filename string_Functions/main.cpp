@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     string s1("Oh My! I love Programming in Python!");
-    cout << s1.substr(7,14) << endl; //prints element in the 7th index to the 14th index
+    cout << s1.substr(7,5) << endl; //From the 7th Index prints out 5Elements after the 7thIndex
     cout << "-----------------\n";
     string nxt("Charlotte ");
     string raw("lashley");
