@@ -25,7 +25,7 @@ class Monster: public Enemy
 public:
 
     void attack(){
-        cout << "I am a Moster, Monster will eat you! = -" << attackPower << endl;
+        cout << "I am a Monster, Monster will eat you! = -" << attackPower << endl;
     }
 };
 

@@ -8,5 +8,5 @@ mother::mother()
 }
 
 void mother::sayName(){
-    cout << "My name is NickBwalley!" <<endl;
+    cout << "Maria Kanellis Bennett!.. I am the mothers class!" <<endl;
 }
