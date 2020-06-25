@@ -1,4 +1,10 @@
 # depslib dependency file v1.0
-1588636892 source:/home/nickbwalley/codeblocks/pointers_passByReference/main.cpp
+1593072612 source:/home/nickbwalley/codeblocks/pointers_passByReference/main.cpp
 	<iostream>
+
+1593072463 source:/home/nickbwalley/codeblocks/pointers_passByReference/passByValue.cpp
+	<iostream>
+	"passByValue.h"
+
+1593072480 /home/nickbwalley/codeblocks/pointers_passByReference/passByValue.h
 

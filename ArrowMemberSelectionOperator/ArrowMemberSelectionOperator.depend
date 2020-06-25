@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1593073526 source:/home/nickbwalley/codeblocks/ArrowMemberSelectionOperator/Apples.cpp
+	<iostream>
+	"Apples.h"
+
+1593073542 /home/nickbwalley/codeblocks/ArrowMemberSelectionOperator/Apples.h
+
