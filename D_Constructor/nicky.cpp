@@ -8,11 +8,20 @@ using namespace std;
 */
 nicky::nicky()
 {
-   cout << "Iam the Constructor!!" <<endl;
-}
+    string name;
+    int age;
+    cout << "--------------------------------" << endl;
+    cout << "Welcome to the Nicky's Company" << endl;
+    cout << "--------------------------------" << endl;
+    cout << "What is Your Name: " <<endl;
+    cin >> name;
+    cout << "What is Your Age: " << endl;
+    cin >> age;
+    cout << endl;
+ }
 
 nicky::~nicky()
 {
-    cout << "Iam the D-Constructor! " <<endl;
+    cout << "ThankYou For Registering with us! " <<endl;
 }
 
