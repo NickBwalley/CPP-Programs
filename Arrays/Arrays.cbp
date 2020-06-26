@@ -34,6 +34,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="arrays_one.cpp" />
+		<Unit filename="arrays_one.h" />
 		<Unit filename="main.cpp" />
 		<Extensions />
 	</Project>
