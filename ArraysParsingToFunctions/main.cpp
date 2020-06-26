@@ -3,6 +3,7 @@
 using namespace std;
 
 void printNumbers(int theArray[], int sizeOfArray);
+void printArray(int myArray[], int mySize);
 
 int main()
 {
@@ -10,6 +11,8 @@ int main()
     int chelsea[7] = {29,39,48,71,188,189,169};
 
     printNumbers(nickie, 5);
+    cout << "****************" << endl;
+    printArray(chelsea, 7);
 }
 
 void printNumbers(int theArray[], int sizeOfArray){
@@ -18,4 +21,10 @@ void printNumbers(int theArray[], int sizeOfArray){
         cout << theArray[x] <<endl;
     }
 
+}
+
+void printArray(int myArray[], int mySize){
+    for(int z = 0; z < mySize; z++){
+        cout << myArray[z] << endl;
+    }
 }
