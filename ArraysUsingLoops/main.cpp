@@ -8,7 +8,7 @@ int main()
 
     cout << "Elements   ----   " << "values" <<endl;
 
-    for(int x = 0; x <= 8; x++){
+    for(int x = 1; x <= 9; x++){
         nickie[x] = 99;
         cout << x << "----------------"<< nickie[x] << endl;
     }
