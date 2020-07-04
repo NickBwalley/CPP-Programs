@@ -2,8 +2,11 @@
 
 using namespace std;
 
+//  global variable -> Global variables are automatically initialized by the system as compared to
+//  local variables -> Local variables are not automatically initialized by the system as you must initialize them
+    int  g;
 int main()
 {
-    cout << "Hello world!" << endl;
-    return 0;
+    int g = 40;
+    cout << g << endl;
 }
