@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Fruits.h"
 #include "Mango.h"
+#include "Bitter.h"
 using namespace std;
 
 int main()
@@ -9,5 +10,6 @@ int main()
     fruit.juicy();
     Mango mango;
     mango.juicy();
+    mango.veryBitter();
 
 }

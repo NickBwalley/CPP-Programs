@@ -2,7 +2,7 @@
 #define MANGO_H
 
 
-class Mango: public Fruits
+class Mango: public Fruits, public Bitter
 {
     public:
 
