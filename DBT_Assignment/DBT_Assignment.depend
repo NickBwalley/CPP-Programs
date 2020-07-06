@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1594020756 source:/home/nickbwalley/codeblocks/DBT_Assignment/main.cpp
+	<iostream>
+	"AreaAndPerimeter.h"
+
+1594020775 /home/nickbwalley/codeblocks/DBT_Assignment/AreaAndPerimeter.h
+
+1594021124 source:/home/nickbwalley/codeblocks/DBT_Assignment/AreaAndPerimeter.cpp
+	<iostream>
+	"AreaAndPerimeter.h"
+

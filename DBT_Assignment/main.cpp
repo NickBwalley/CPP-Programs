@@ -1,9 +1,8 @@
 #include <iostream>
-
+#include "AreaAndPerimeter.h"
 using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
-    return 0;
+   AreaAndPerimeter marvin;
 }
