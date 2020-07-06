@@ -36,6 +36,8 @@
 		</Compiler>
 		<Unit filename="AreaAndPerimeter.cpp" />
 		<Unit filename="AreaAndPerimeter.h" />
+		<Unit filename="GradeChecker.cpp" />
+		<Unit filename="GradeChecker.h" />
 		<Unit filename="PinChecker.cpp" />
 		<Unit filename="PinChecker.h" />
 		<Unit filename="main.cpp" />
