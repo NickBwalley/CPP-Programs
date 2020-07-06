@@ -6,9 +6,9 @@ using namespace std;
 
 int main()
 {
-   //AreaAndPerimeter marvin;
+   AreaAndPerimeter marvin;
    //PinChecker marvin;
-   GradeChecker marvin;
+   //GradeChecker marvin;
 
 
 }

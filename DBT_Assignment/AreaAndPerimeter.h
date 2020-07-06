@@ -6,7 +6,6 @@ class AreaAndPerimeter
 {
     public:
         AreaAndPerimeter();
-        void Area();
 
     protected:
 
