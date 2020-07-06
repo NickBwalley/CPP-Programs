@@ -10,7 +10,7 @@ GradeChecker::GradeChecker()
     cin >> stdNo;
     cout << "Enter Your Average Marks: (0-100): " << endl;
     cin >> marks;
-    if(marks < 0 && marks > 100){
+    if(marks < 0 || marks > 100){
         cout << "Invalid Marks Entered!..." << endl;
     }
     else if (marks < 50){
