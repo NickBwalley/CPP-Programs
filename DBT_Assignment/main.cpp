@@ -8,7 +8,7 @@ int main()
 {
    //AreaAndPerimeter marvin;
    //PinChecker marvin;
-   GradeChecker marvin;
+   //GradeChecker marvin;
 
 
 }
