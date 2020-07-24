@@ -3,7 +3,14 @@ using namespace std;
 
 int main()
 {
-    cout << "Hello world!" << endl;
+    short int i; // signed short int
+    short unsigned int j;   // unsigned short int
+
+    j = 50000;
+    i = j;
+    cout << i << "\t" << j << endl;
+//  The above result is because the bit pattern that represents 50,000 as a short
+//  unsigned integer is interpreted as -15,536 by a short.
     return 0;
 }
 
