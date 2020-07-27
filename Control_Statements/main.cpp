@@ -7,6 +7,8 @@ void elseIf();
 void switchStatement();
 void forLoop();
 void whileLoop();
+void nestedWhileLoop();
+void doWhileLoop();
 
 int main()
 {
@@ -14,7 +16,9 @@ int main()
     //elseIf();
     //switchStatement();
     //forLoop();
-    whileLoop();
+    //whileLoop();
+    //nestedWhileLoop();
+    doWhileLoop();
 }
 
 //function definitions
@@ -102,5 +106,21 @@ void whileLoop(){
 }
 
 void nestedWhileLoop(){
+    int i = 1;
+    while (i <= 3){
+        int j = 1;
+        while(j <= 3){
+            cout << i << " " << j << endl;
+            j++;
+        }
+        i++;
+    }
+}
 
+void doWhileLoop(){
+     int i = 14;
+     do{
+        cout<<i<<"\n";
+        i++;
+     } while (i <= 10) ;
 }
