@@ -4,11 +4,17 @@ using namespace std;
 //function prototypes
 void ifStatement();
 void elseIf();
+void switchStatement();
+void forLoop();
+void whileLoop();
 
 int main()
 {
     //ifStatement();
-    elseIf();
+    //elseIf();
+    //switchStatement();
+    //forLoop();
+    whileLoop();
 }
 
 //function definitions
@@ -55,4 +61,46 @@ void elseIf(){
     {
         cout<<"A+ Grade" << endl;
     }
+}
+
+void switchStatement(){
+    int age;
+    cout << "Enter Your Age: " << endl;
+    cin >> age;
+    switch(age){
+    case 18:
+        cout << "Your are Fit to have an ID.." <<endl;
+        break;
+    case 19:
+        cout << "You are Fit to start a Family... " << endl;
+        break;
+    case 20:
+        cout << "You are Fit to Start Driving Lessons... " << endl;
+        break;
+    default:
+        cout << "Your are still a child go back to school \n and Learn!.." << endl;
+        break;
+    }
+}
+
+void forLoop(){
+    //  printing values from 1 - 10
+    for(int i = 0; i < 10; i++){
+        cout << i << endl;
+    }
+}
+
+void whileLoop(){
+    //  printing values from 1 - 10
+    int counter = 1;
+
+    while(counter <= 10){
+        cout << counter << endl;
+        counter++;
+    }
+
+}
+
+void nestedWhileLoop(){
+
 }
