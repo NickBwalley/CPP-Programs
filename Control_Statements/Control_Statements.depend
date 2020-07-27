@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1595833095 source:/home/nickbwalley/codeblocks/Control_Statements/If_Else.cpp
+	<iostream>
+	"If_Else.h"
+
+1595832554 /home/nickbwalley/codeblocks/Control_Statements/If_Else.h
+
+1595833119 source:/home/nickbwalley/codeblocks/Control_Statements/main.cpp
+	<iostream>
+	"If_Else.h"
+	"Else_If.h"
+
+1595833095 source:/home/nickbwalley/codeblocks/Control_Statements/Else_If.cpp
+	<iostream>
+	"Else_If.h"
+
+1595833095 /home/nickbwalley/codeblocks/Control_Statements/Else_If.h
+
