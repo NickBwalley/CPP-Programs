@@ -9,6 +9,9 @@ void forLoop();
 void whileLoop();
 void nestedWhileLoop();
 void doWhileLoop();
+void breakStatement();
+void continueStatement();
+void gotoStatement();
 
 int main()
 {
@@ -18,7 +21,10 @@ int main()
     //forLoop();
     //whileLoop();
     //nestedWhileLoop();
-    doWhileLoop();
+    //doWhileLoop();
+    //breakStatement();
+    //continueStatement();
+    gotoStatement();
 }
 
 //function definitions
@@ -123,4 +129,38 @@ void doWhileLoop(){
         cout<<i<<"\n";
         i++;
      } while (i <= 10) ;
+}
+
+void breakStatement(){
+    int i;
+    for(i = 1; i <= 10; i++){
+        if (i == 5){
+            break;
+        }
+        cout<<i<<"\n";
+    }
+}
+
+void continueStatement(){
+    int i;
+    for(i = 1; i <= 10; i++){
+        if (i == 5){
+            continue;
+        }
+        cout<<i<<"\n";
+    }
+}
+
+void gotoStatement(){
+//  It can be used to transfer control from deeply nested loop or switch case label.
+ineligible:
+    cout<< "You are not eligible to vote!.." << endl;
+    int age;
+    cout << "Enter Your Age: " << endl;
+    cin >> age;
+    if(age < 18)
+        goto ineligible;
+    else
+        cout << "You can now Vote!.." << endl;
+
 }
