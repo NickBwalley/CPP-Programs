@@ -17,8 +17,3 @@ void passByValue(int value){
     value = 49;
     cout << "value inside the function is: " << value << endl;
 }
-
-// pass(call) by reference -> Original value is modified because we pass reference(address of the value)
-void passByReference(int value){
-
-}
