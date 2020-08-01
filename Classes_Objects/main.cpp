@@ -21,6 +21,9 @@ int main()
 {
     boxersRecord boxersResult;
     boxersResult.gypsyKing();
-    boxersResult.bronzeBomber();
+    cout << "----------------------------------" << endl;
+    // using an arrow member selection operator to locate the bronzeBomber function
+    boxersRecord *biiy = &boxersResult;
+    biiy->bronzeBomber();
     return 0;
 }
