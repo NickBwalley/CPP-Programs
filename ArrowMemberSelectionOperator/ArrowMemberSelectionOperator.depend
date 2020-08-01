@@ -1,7 +1,18 @@
 # depslib dependency file v1.0
-1593073526 source:/home/nickbwalley/codeblocks/ArrowMemberSelectionOperator/Apples.cpp
+1596269294 source:/home/nickbwalley/codeblocks/ArrowMemberSelectionOperator/Apples.cpp
 	<iostream>
 	"Apples.h"
 
-1593073542 /home/nickbwalley/codeblocks/ArrowMemberSelectionOperator/Apples.h
+1596269220 /home/nickbwalley/codeblocks/ArrowMemberSelectionOperator/Apples.h
+
+1596269111 source:/home/nickbwalley/codeblocks/ArrowMemberSelectionOperator/main.cpp
+	<iostream>
+	"Apples.h"
+	"Mango.h"
+
+1596269259 source:/home/nickbwalley/codeblocks/ArrowMemberSelectionOperator/Mango.cpp
+	<iostream>
+	"Mango.h"
+
+1596269024 /home/nickbwalley/codeblocks/ArrowMemberSelectionOperator/Mango.h
 

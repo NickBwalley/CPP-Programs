@@ -4,7 +4,10 @@ using namespace std;
 
 Apples::Apples()
 {
-    //ctor
+    cout << "This is a Constructor for the Apples Class !.." << endl;
+}
+Apples::~Apples(){
+    cout << "This is a de-constructor for the Apples Class !.." << endl;
 }
 
 void Apples::AMSO(){

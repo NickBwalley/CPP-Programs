@@ -6,6 +6,7 @@ class Apples
 {
     public:
         Apples();
+        ~Apples();
         void AMSO();
         void Dot();
 

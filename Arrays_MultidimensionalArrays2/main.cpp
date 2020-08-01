@@ -5,7 +5,11 @@ using namespace std;
 int main()
 {
 //creating a multidimentional array visually
-    int nick[3][3] = { {49,79,99}, {30,40,50}, {81,71,61} };
+    int nick[3][3] = {
+         {49,79,99},
+         {30,40,50},
+         {81,71,61}
+    };
     //pictorial representation
     /*49, 79, 99
       30, 40, 50
