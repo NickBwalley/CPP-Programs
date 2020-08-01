@@ -36,6 +36,8 @@
 		</Compiler>
 		<Unit filename="Apples.cpp" />
 		<Unit filename="Apples.h" />
+		<Unit filename="Mango.cpp" />
+		<Unit filename="Mango.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

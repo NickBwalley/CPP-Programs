@@ -9,7 +9,7 @@ int main()
     cout << x << endl;
     cout << x++ <<endl;//adds one after printing the value so it will still be 78
     cout << x << endl;//after the increment above now it will print out 79..
-
+    cout << "-------" << endl;
     cout  << --x << endl;
     cout << x << endl;
     cout << x-- << endl;
