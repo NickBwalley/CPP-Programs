@@ -24,7 +24,7 @@ int main()
     //doWhileLoop();
     //breakStatement();
     //continueStatement();
-    gotoStatement();
+    //gotoStatement();
 }
 
 //function definitions
