@@ -1,5 +1,8 @@
 # depslib dependency file v1.0
-1592604379 source:/home/nickbwalley/codeblocks/CustomFileStructure/main.cpp
+1596375004 source:/home/nickbwalley/codeblocks/CustomFileStructure/main.cpp
 	<iostream>
+	"Nicky.h"
 	<fstream>
+
+1596375004 /home/nickbwalley/codeblocks/CustomFileStructure/Nicky.h
 

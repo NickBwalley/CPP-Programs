@@ -6,6 +6,7 @@ class Nicky
 {
     public:
         Nicky();
+        void customFileStructure();
 
     protected:
 

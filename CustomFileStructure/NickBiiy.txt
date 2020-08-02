@@ -1,0 +1,11 @@
+0	Nicky
+1	Biiy
+2	Bwalley
+3	Chelsea
+4	Andrew
+5	Jackson
+6	James
+7	Floys
+8	LeBron
+9	Wilder
+10	Fury

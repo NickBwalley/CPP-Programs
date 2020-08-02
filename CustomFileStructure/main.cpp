@@ -1,10 +1,15 @@
 #include <iostream>
+#include "Nicky.h"
 #include <fstream>
 using namespace std;
+
 // function prototypes
 void customFileStructure();
+
 int main(){
-    customFileStructure();
+    //customFileStructure();
+    Nicky magician;
+    magician.customFileStructure();
 }
 
 void customFileStructure(){
