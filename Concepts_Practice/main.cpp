@@ -46,6 +46,11 @@ int main()
 //    birthday nickie("Jay", "Z");//constructor is called as soon as you create an instance of an object of that class
 //    cout << nickie.getName() << " " << nickie.getAge() << endl;
 //    birthday rikki("Andrew", "Jackson");
+//    int result = sumNumbers(47, 91);
+//    cout << result << endl;
+//    printSomething();
+
+
     /******************************/
     /*external classes*/
     Prickler po;
