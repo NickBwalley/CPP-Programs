@@ -1,6 +1,7 @@
 #include <iostream>
+#include "Const_Def.h"
 using namespace std;
-//  Defining constants using the #define identifier value
+//  Defining constants using the: #define >>  identifier >> value
 #define LENGTH 10
 #define WIDTH 15
 #define NEWLINE '\n'
@@ -8,13 +9,17 @@ using namespace std;
 //function prototypes
 void findArea();
 void findSum();
+// Main Method
 int main()
 {
-        findArea();
-        findSum();
+        //findArea();
+        //findSum();
+        Const_Def nicky;
+        Const_Def *biiy = &nicky;
+        biiy->areaOfRectangle();
 }
 
-//function declaration using the #define identifier value
+//function declaration using the >>  #define >>  identifier >>  value
 void findArea(){
     // #define identifier value
     int area;
@@ -25,7 +30,7 @@ void findArea(){
 
 //function declaration using the const type variable = value;
 void findSum(){
-    // const type variable = value;
+    // const data-type variable = value;
     const int L = 10;
     const int W = 20;
     const char NEW = '\n';
