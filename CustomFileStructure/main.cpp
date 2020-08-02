@@ -1,19 +1,18 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
+// function prototypes
+void customFileStructure();
+int main(){
+    customFileStructure();
+}
 
-int main()
-{
-    ofstream finn("players.txt");
-
+void customFileStructure(){
+    ofstream nicky("nicky.txt");
     string name;
     int age;
-
-    cout << "Enter Player Name and Age" << endl;
-    cout << "To quit and save press ctrl+D " << endl;
-
+    cout << "Enter Your Name and Age: " << endl;
     while(cin >> name >> age){
-            finn << name << "--" << age << ' ' << endl;
-        }
-
+        nicky << name << "\t" << age << endl;
+    }
 }
