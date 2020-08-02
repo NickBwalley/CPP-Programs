@@ -17,6 +17,8 @@ nicky::nicky()
     cin >> name;
     cout << "What is Your Age: " << endl;
     cin >> age;
+    cout << "Your Name is: " << name << endl;
+    cout << "Your Age is: " << age << endl;
     cout << endl;
  }
 
