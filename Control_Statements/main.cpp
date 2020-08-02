@@ -153,14 +153,18 @@ void continueStatement(){
 
 void gotoStatement(){
 //  It can be used to transfer control from deeply nested loop or switch case label.
-ineligible:
-    cout<< "You are not eligible to vote!.." << endl;
+
     int age;
     cout << "Enter Your Age: " << endl;
     cin >> age;
     if(age < 18)
         goto ineligible;
     else
-        cout << "You can now Vote!.." << endl;
+        goto eligible;
+
+    ineligible:
+        cout<< "You are in-eligible to vote!.." << endl;
+    eligible:
+        cout << "You are Eligible to Vote!.." << endl;
 
 }
