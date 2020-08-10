@@ -2,23 +2,24 @@
 
 using namespace std;
 
-class cleo{
-    public:
-        cleo(){
-            kim = 149;
-            cout << "The value of Kim is at: " << kim <<endl;
-        }
-    private:
-        int kim;
+class mother{
+private:
+    int kim;    // variable definition
+    friend void son(mother &son);
+public:
 
-        friend void emma(cleo &emma);
+    mother(){
+        kim = 179;  // variable initialization
+        cout << "value of mother is " << kim << endl;
+    }
+
 };
 
-void emma(cleo &emma){
-    emma.kim = 79;
-    cout << "The New value of Kim is set to be: " << emma.kim <<endl;
+void son(mother &son){
+    son.kim = 99;
+    cout << "value of son is " << son.kim << endl;
 }
 int main(){
-    cleo rikki;
-    emma(rikki);
+    mother s;
+    son(s);
 }
