@@ -6,14 +6,14 @@
 
 1592604379 /home/nickbwalley/codeblocks/Inheritance/mother.h
 
-1592604379 /home/nickbwalley/codeblocks/Inheritance/daughter.h
+1597065691 /home/nickbwalley/codeblocks/Inheritance/daughter.h
 
-1592604379 source:/home/nickbwalley/codeblocks/Inheritance/main.cpp
+1597065511 source:/home/nickbwalley/codeblocks/Inheritance/main.cpp
 	<iostream>
 	"mother.h"
 	"daughter.h"
 
-1592846582 source:/home/nickbwalley/codeblocks/Inheritance/mother.cpp
+1597065558 source:/home/nickbwalley/codeblocks/Inheritance/mother.cpp
 	<iostream>
 	"mother.h"
 	"daughter.h"

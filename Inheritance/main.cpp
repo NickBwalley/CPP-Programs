@@ -9,5 +9,6 @@ int main()
     mom.sayName();
 
     daughter siz;
-    siz.sayName();
+    daughter *mySiz = &siz;
+    mySiz->sayName();
 }

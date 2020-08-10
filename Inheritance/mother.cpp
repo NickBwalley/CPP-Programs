@@ -5,6 +5,7 @@ using namespace std;
 
 mother::mother()
 {
+    //constructor
 }
 
 void mother::sayName(){

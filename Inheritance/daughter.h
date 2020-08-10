@@ -6,6 +6,7 @@ class daughter: public mother
 {
     public:
         daughter();
+        void sayName();
 
 };
 
