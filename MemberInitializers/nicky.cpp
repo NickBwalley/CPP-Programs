@@ -3,9 +3,7 @@
 
 using namespace std;
 
-nicky::nicky(int a, int b)
-:   regVar(a),
-    constVar(b)
+nicky::nicky(int a, int b):regVar(a),constVar(b)
 {
 }
 
