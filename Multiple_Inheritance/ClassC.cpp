@@ -3,9 +3,7 @@
 #include "ClassB.h"
 #include "ClassC.h"
 using namespace std;
-
-int main()
+ClassC::ClassC()
 {
-    ClassC nick;
-    return 0;
+    cout << "This is a Constructor for Class C!.." << endl;
 }

@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1597067156 source:/home/nickbwalley/codeblocks/Multiple_Inheritance/ClassA.cpp
+	<iostream>
+	"ClassA.h"
+	"ClassB.h"
+	"ClassC.h"
+
+1597066863 /home/nickbwalley/codeblocks/Multiple_Inheritance/ClassA.h
+
+1597067156 source:/home/nickbwalley/codeblocks/Multiple_Inheritance/ClassB.cpp
+	<iostream>
+	"ClassA.h"
+	"ClassB.h"
+	"ClassC.h"
+
+1597066689 /home/nickbwalley/codeblocks/Multiple_Inheritance/ClassB.h
+
+1597067078 /home/nickbwalley/codeblocks/Multiple_Inheritance/ClassC.h
+
+1597067156 source:/home/nickbwalley/codeblocks/Multiple_Inheritance/ClassC.cpp
+	<iostream>
+	"ClassA.h"
+	"ClassB.h"
+	"ClassC.h"
+

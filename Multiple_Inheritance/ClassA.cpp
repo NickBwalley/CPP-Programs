@@ -4,8 +4,7 @@
 #include "ClassC.h"
 using namespace std;
 
-int main()
+ClassA::ClassA()
 {
-    ClassC nick;
-    return 0;
+    cout << "This is a Constructor for Class A!.." << endl;
 }
