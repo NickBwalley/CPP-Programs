@@ -10,6 +10,7 @@ int main()
     nicky.doSomething();
 
     daddy moses;
-    moses.daddys();
+    daddy *myDad = &moses;
+    myDad->daddys();
 
 }
