@@ -2,7 +2,7 @@
 #define CLASSC_H
 
 
-class ClassC : public ClassA, public ClassB {
+class ClassC: public ClassA, public ClassB {
     public:
         ClassC();
 

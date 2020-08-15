@@ -15,9 +15,15 @@
 
 1597066689 /home/nickbwalley/codeblocks/Multiple_Inheritance/ClassB.h
 
-1597067078 /home/nickbwalley/codeblocks/Multiple_Inheritance/ClassC.h
+1597489132 /home/nickbwalley/codeblocks/Multiple_Inheritance/ClassC.h
 
 1597067156 source:/home/nickbwalley/codeblocks/Multiple_Inheritance/ClassC.cpp
+	<iostream>
+	"ClassA.h"
+	"ClassB.h"
+	"ClassC.h"
+
+1597067180 source:/home/nickbwalley/codeblocks/Multiple_Inheritance/main.cpp
 	<iostream>
 	"ClassA.h"
 	"ClassB.h"
