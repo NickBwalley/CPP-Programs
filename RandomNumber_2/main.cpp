@@ -15,7 +15,9 @@ public:
 
 int main()
 {
-
+    RandGenerator biiy;
+    RandGenerator *b = &biiy;
+    b->RandGenerator();
 //    NickFury nickie;
 //    nickie.randomNumbers();
 
