@@ -7,7 +7,7 @@ public:
     RandGenerator(){
         srand(time(0));
         for(int i = 1; i <= 10; i++){
-            cout << rand()%10;
+            cout << rand()%10 << endl;
         }
     }
 
@@ -16,8 +16,6 @@ public:
 int main()
 {
     RandGenerator biiy;
-    RandGenerator *b = &biiy;
-    b->RandGenerator();
 //    NickFury nickie;
 //    nickie.randomNumbers();
 
