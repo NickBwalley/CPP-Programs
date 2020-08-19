@@ -10,7 +10,7 @@ int main()
     cout << ::salmon << endl;
     //the :: (the unary scope Resolution Operator) is used to access variables outside
     //the main method and denoted as ::
-    NickBiiy();
+    //NickBiiy();
 }
 
 void NickBiiy(){
