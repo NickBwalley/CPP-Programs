@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1597995779 source:/home/nickbwalley/codeblocks/DBT_Quiz1/main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+
