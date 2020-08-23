@@ -2,7 +2,8 @@
 <CodeBlocks_workspace_file>
 	<Workspace title="Workspace">
 		<Project filename="../../CppConcepts.cbp" />
-		<Project filename="Variables.cbp" />
+		<Project filename="../../Cpp_Introduction/Variables/Variables.cbp" />
 		<Project filename="../../Cpp_DataTypes/DataTypes/DataTypes.cbp" />
+		<Project filename="BasicInputOutput.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
