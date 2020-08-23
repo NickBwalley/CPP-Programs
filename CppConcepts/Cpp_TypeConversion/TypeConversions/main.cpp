@@ -14,6 +14,12 @@ int main()
     cout << "----------------" << endl;
     TypeCasting();
 
+    /* TYPE CONVERSION OPERATORS
+    1. static_cast
+    2. dynamic_cast
+    3. const_cast
+    4. reinterpret_cast*/
+
     return 0;
 }
 
