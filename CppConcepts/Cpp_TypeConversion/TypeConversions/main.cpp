@@ -8,11 +8,9 @@ void implicitConversion2();
 int main()
 {
     implicitConversion();
+    cout << "----------------" << endl;
     implicitConversion2();
-    /*
 
-    2. Explicit conversions(TypeCasting)
-    */
     return 0;
 }
 
@@ -39,3 +37,10 @@ void implicitConversion2()
     cout << "num_int = " << num_int << endl;
     cout << "num_double = " << num_double << endl;
 }
+
+//EXPLICIT CONVERSION-> user manually changes data from one type to another (TypeCasting)
+/*There are three types
+1. C-Style-Type-Casting(cast notation)
+2. Function notation
+3. Type Conversion Operation*/
+
