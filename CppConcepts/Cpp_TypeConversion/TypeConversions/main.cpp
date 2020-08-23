@@ -4,12 +4,15 @@ using namespace std;
 // function prototypes
 void implicitConversion();
 void implicitConversion2();
+void TypeCasting();
 
 int main()
 {
     implicitConversion();
     cout << "----------------" << endl;
     implicitConversion2();
+    cout << "----------------" << endl;
+    TypeCasting();
 
     return 0;
 }
@@ -42,5 +45,22 @@ void implicitConversion2()
 /*There are three types
 1. C-Style-Type-Casting(cast notation)
 2. Function notation
-3. Type Conversion Operation*/
+3. Type Conversion Operation
+*/
+void TypeCasting()
+{
+    //initializing a double variable
+    double num_double = 3.142;
+    cout << "num_double: " << num_double << endl;
+
+    // C-style conversion from double to int
+    int int_num1 = (int)num_double;
+    cout << "int_num1: " << int_num1 << endl;
+
+    //function-style conversion from double to int
+    int int_num2 = (int)num_double;
+    cout << "int_num2: " << int_num2 << endl;
+
+}
+
 
