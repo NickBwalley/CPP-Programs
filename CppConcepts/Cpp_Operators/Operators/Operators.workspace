@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="../../CppConcepts.cbp" />
+		<Project filename="../../Cpp_Introduction/Variables/Variables.cbp" />
+		<Project filename="../../Cpp_DataTypes/DataTypes/DataTypes.cbp" />
+		<Project filename="../../Cpp_BasicInputOuput/BasicInputOutput/BasicInputOutput.cbp" />
+		<Project filename="../../Cpp_TypeConversion/TypeConversions/TypeConversions.cbp" />
+		<Project filename="Operators.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
