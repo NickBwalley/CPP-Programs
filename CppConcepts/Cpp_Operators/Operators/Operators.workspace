@@ -7,5 +7,6 @@
 		<Project filename="../../Cpp_BasicInputOuput/BasicInputOutput/BasicInputOutput.cbp" />
 		<Project filename="../../Cpp_TypeConversion/TypeConversions/TypeConversions.cbp" />
 		<Project filename="Operators.cbp" />
+		<Project filename="../../Cpp_Comments/Comments/Comments.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
