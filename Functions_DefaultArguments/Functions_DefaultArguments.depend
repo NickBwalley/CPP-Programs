@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1599384434 source:/home/nickbwalley/codeblocks/Functions_DefaultArguments/src/Nicky.cpp
+	<iostream>
+	"Nicky.h"
+
+1599384247 /home/nickbwalley/codeblocks/Functions_DefaultArguments/include/Nicky.h
+
