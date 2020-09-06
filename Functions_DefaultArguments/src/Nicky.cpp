@@ -4,7 +4,9 @@ using namespace std;
 
 Nicky::Nicky()
 {
-    cout << "Default-Arguments Constructors!.." << endl;
+    cout << "----------------------------" << endl;
+    cout << "FUNCTION OVERLOADING!.." << endl;
+    cout << "----------------------------" << endl;
 }
 
 double Nicky::toSum(double b)
